@@ -1,4 +1,3 @@
-#FROM japanvik/nodejs
 FROM dockerfile/nodejs
 MAINTAINER Vik Kumar "vik@japanvik.net"
 
@@ -6,7 +5,6 @@ ENV NODE_PATH /usr/lib/node_modules:$NODE_PATH
 RUN npm install deployd -g
 
 # Add startup script
-#ADD app.js /src/app.js
 ADD start.sh /src/start.sh
 ADD env.sh /src/env.sh
 RUN chmod +x /src/start.sh
