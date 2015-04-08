@@ -1,4 +1,4 @@
-FROM dockerfile/nodejs
+FROM node:latest
 MAINTAINER Vik Kumar "vik@japanvik.net"
 
 ENV NODE_PATH /usr/lib/node_modules:$NODE_PATH

@@ -7,6 +7,6 @@ This image does not come with monogodb. Run a separate container running mongodb
 
 ### Base Docker Image
 
-* [dockerfile/nodejs](http://dockerfile.github.io/#/nodejs)
+* [nodejs:latest](http://dockerfile.github.io/#/nodejs)
 
 
